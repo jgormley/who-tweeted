@@ -1,0 +1,30 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Trivia game to test how well you know who tweeted",
+          "examplePhrases": [
+            "Alexa open who tweeted",
+            "Alexa tell who tweeted to start a game",
+            "Alexa tell who tweeted I want to play"
+          ],
+          "name": "Who Tweeted",
+          "description": "Are you a savvy twitter follower?  Can you distinguish tweets by who tweeted them?  Test your knowledge with this Alexa skill to find out how well you do."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

@@ -1,0 +1,10 @@
+
+I created this new IAM user.
+NOTE: this has full AWS access, this should be limited down the road
+# aws user: ybs-alexa
+# access key id: ****
+# secret access key: ****
+# password: ****
+
+aws_access_key_id = ****
+aws_secret_access_key = ****

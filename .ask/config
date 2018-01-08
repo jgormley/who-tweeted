@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.227c35a1-62a9-4f20-b175-168d06c66640",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-trivia-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
